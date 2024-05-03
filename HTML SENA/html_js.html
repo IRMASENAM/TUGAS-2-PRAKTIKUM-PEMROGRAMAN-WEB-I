@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT</title>
+    <!--ini adalah gaya JS -->
+    <style>
+        body {background-color: rgb(61, 226, 251);}
+        h1 {color: kan rgb(158, 89, 89);}
+        p {color: rgb(8, 8, 48);}
+      </style>
+</head>
+<body>
+    <!--ini adalah HTML JAVASCRIPT-->
+    <h2>PRAKTIKUM PEMROGRAMAN WEB I</h2>
+    <p>ini adalah percobaan praktikum "HTML JAVASCRIPT!" saya.</p>
+    <p id="demo"></p>
+<script>
+    /*ini adalah JS untuk mengubah konten*/
+    document.getElementById("demo").innerHTML = "HTML JAVASCRIPT!";
+</script> 
+    <!--ini adalah JS mengubah style-->
+    <h2>Praktikum Pemrograman Web I</h2>
+    <p id="demo">ini adalah praktikum JS saya</p>
+    <script>
+    function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px"; 
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";        
+    }
+</script>
+    <button type="button" onclick="myFunction()">KLIK</button><br><br>
+    <!--ini adalah JS mengubah atribut-->
+    <script>
+        function light(sw) {
+          var pic;
+          if (sw == 0) {
+            pic = "img_lampoff.jpg"
+          } else {
+            pic = "img_lampon.jpg"
+          }
+          document.getElementById('myImage').src = pic;
+        }
+        </script>
+        
+        <img id="myImage" src="img_lampoff.jpg" width="150" height="180">
+        
+        <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+        </p>
+    <!--ini adalah gambar url-->
+    <h2>Aesthetic Senja</h2>
+    <img src="https://i.pinimg.com/originals/ec/d0/7e/ecd07e5638afc72e8e2e953895fcff64.jpg" alt="Senja" style="width:200px"><br>
+    <!--ini adalah pemisahan titik koma-->
+    <h2>Pemisahan Titik Koma</h2>
+    <p id="demo1"></p>
+  <script>
+  let a, b, c;
+  a = 5;
+  b = 6;
+  c = a + b;
+  document.getElementById("demo1").innerHTML = c;
+</script>
+</body>
+</html>
