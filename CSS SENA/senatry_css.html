@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENA TRY CODE HTML CSS</title>
+<!--ini adalah HTML CSS Internal-->
+<style>
+    body {background-color: rgb(56, 108, 115);}
+    h1   {color: rgb(64, 64, 146);}
+    p    {color: rgb(229, 96, 96);}
+</style>
+<!--ini adalah HTML CSS Eksternal-->
+<link rel="stylesheet" href="mystyle.css">
+<!--ini adalah HTML penggunaan warna CSS, font-family dan font-size-->
+<style>
+    h1 {
+      color: rgb(255, 39, 255);
+      font-family: blue;
+      font-size: 200%;
+    }
+    p {
+      color: rgb(255, 255, 255);
+      font-family: serif;
+      font-size: 160%;
+    }
+</style>
+<!--ini adalah batas CSS-->
+<style>
+    p.ti {
+        border: 2px solid rgb(66, 41, 41);
+      }
+</style>
+<!--ini adalah CSS Padding-->
+<style>
+    p.el {
+        border: 2px solid rgb(255, 255, 255);
+        padding: 5px;
+      }
+</style>
+<!--ini adalah CSS Margin-->
+<style>
+    p.ui {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 5px;
+      }
+</style>
+<!--ini merupakan border atau perbatasan CSS -->
+<style>
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+    </style>
+<!--ini merupakan batas lebar CSS-->
+<style>
+    p.one {
+      border-style: solid;
+      border-width: 5px;
+    }
+    
+    p.two {
+      border-style: solid;
+      border-width: medium;
+    }
+    
+    p.three {
+      border-style: dotted;
+      border-width: 2px;
+    }
+    
+    p.four {
+      border-style: dotted;
+      border-width: thick;
+    }
+    
+    p.five {
+      border-style: double;
+      border-width: 15px;
+    }
+    
+    p.six {
+      border-style: double;
+      border-width: thick;
+    }
+</style>
+<!--ini merupakan warna batas CSS-->
+<style>
+    p.a {
+        border-style: solid;
+        border-color: rgb(231, 92, 92);
+    }
+        
+    p.b {
+        border-style: solid;
+        border-color: rgb(55, 240, 55);
+    } 
+        
+    p.c {
+        border-style: dotted;
+        border-color: rgb(101, 101, 242);
+    } 
+</style>
+<!--ini merupakan perbatasan CSS-->
+<style>
+    p.o {
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+    }
+</style>
+<!--ini merupakan CSS padding-->
+<style>
+    div {
+      padding: 70px;
+      border: 1px solid #29482a;
+      color: whitesmoke;
+    }
+    </style>
+<!--ini merupakan properti padding CSS-->
+<style>
+    .div9 {
+      border: 1px solid rgb(176, 173, 173);
+      background-color: #ac4955;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+    }
+    </style>
+<!--ini merupakan formating CSS-->
+<style>
+  div.t {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  h1.r {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0b5e0e;
+    background-color: #73AD21;
+  }
+  
+  p.i {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    background-color: #73AD21;
+  }
+  
+  a.s {
+    text-decoration: none;
+    color: #008CBA;
+  }
+  </style>
+<!--ini merupakan dekorasi text-->
+<style>
+  h1.q {
+    text-decoration: overline;
+  }
+  
+  h2.w {
+    text-decoration: line-through;
+  }
+  
+  h3.y {
+    text-decoration: underline;
+  }
+  
+  p.ex {
+    text-decoration: overline underline;
+  }
+  </style>
+<!--ini merupakan transformasi text-->
+<style>
+  p.up {
+    text-transform: uppercase;
+  }
+  
+  p.low {
+    text-transform: lowercase;
+  }
+  
+  p.cap {
+    text-transform: capitalize;
+  }
+  </style>
+<!--ini merupakan bayangan text-->
+<style>
+  p.l {
+    text-shadow: #ffffff;
+  }
+</style>
+<!--ini merupakan list-->
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  } 
+  
+  li a {
+    display: block;
+    background-color: #dddddd;
+  }
+  </style>
+  <!--ini merupakan style navigation bar-->
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 1%;
+      padding: 1%;
+      overflow: hidden;
+      background-color: #914b4b;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    </style>
+    <!--ini merupakan units-->
+    <style>
+      h1 {
+        font-size: 60px;
+      }
+      
+      p {
+        font-size: 25px;
+        line-height: 50px;
+      }
+      </style>
+      <style>
+        p.q{color: blue;}
+      </style>
+      <!--ini merupakan important rule-->
+      <style>
+        #myid {
+          background-color: blue !important;
+        }
+        
+        .mykit {
+          background-color: gray !important;
+        }
+        
+        p.li {
+          background-color: red !important;
+        }
+      </style>
+      <!--ini merupakan math function-->
+      <style>
+        #div11 {
+          position: absolute;
+          left: 50px;
+          width: calc(100% - 100px);
+          border: 1px solid rgb(0, 0, 0);
+          background-color: yellow;
+          color: #0b5e0e;
+          padding: 5px;
+        }
+      </style>
+      <!--ini  merupakan rounded corners-->
+      <style> 
+        #sen1 {
+          border-radius: 25px;
+          background: #73AD21;
+          padding: 20px; 
+          width: 200px;
+          height: 150px;  
+        }
+        
+        #sen2 {
+          border-radius: 25px;
+          border: 2px solid #73AD21;
+          padding: 20px; 
+          width: 200px;
+          height: 150px;  
+        }
+        
+        #sen3 {
+          border-radius: 25px;
+          background: url(paper.gif);
+          background-position: left top;
+          background-repeat: repeat;
+          padding: 20px; 
+          width: 200px;
+          height: 150px;  
+        }
+      </style>
+  <!--ini merupakan border images-->
+  <style> 
+    #borderimg { 
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(img_border.png) 30 round;
+    }
+    </style>
+    <!--ini merupakan multiple background-->
+    <style> 
+      #ex1 {
+        background: url(moon.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+        padding: 15px;
+      }
+      </style>
+      <!--ini merupakan gradient-->
+      <style>
+        #grad1 {
+          height: 100px;
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(0deg, red, yellow);
+        }
+      </style>
+      <!--ini merupakan radial gradient-->
+      <style>
+        #grad11 {
+          height: 150px;
+          width: 200px;
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+        }
+        </style>
+        <!--ini merupakan conic gradient-->
+        <style>
+          #grad21 {
+            height: 200px;
+            width: 200px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: conic-gradient(red, yellow, green, blue, black);
+            border-radius: 50%;
+          }
+        </style>
+        <!--ini merupakan shadow text-->
+        <style>
+          p.ep {
+            text-shadow: 2px 2px 5px rgb(0, 255, 140);
+          }
+          </style>
+  <!--ini merupakan text effect-->
+  <style>
+  span.test2 {
+  writing-mode: vertical-rl; 
+  }
+  </style>
+  <!--ini merupakan 2D transforms-->
+  <style>
+    .div5 {
+      width: 530px;
+      height: 10px;
+      background-color: antiquewhite;
+      border: 1px solid black;
+      color: #111;
+    }
+    
+    div#myDiv {
+      transform: skew(20deg);
+      background-color: antiquewhite;
+      color: #111;
+    }
+    </style>
+  <!--ini merupakan animations color-->
+  <style> 
+    .divgtu {
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-delay: 2s;
+    }
+    
+    @keyframes example {
+      0%   {background-color:red; left:0px; top:0px;}
+      25%  {background-color:yellow; left:200px; top:0px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:0px;}
+    }
+    </style>
+    <!--ini merupakan tooltip-->
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    </style>
+    <!--ini merupakan styling images-->
+    <style>
+      img {
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+    <!--ini merupakan masking-->
+    <style>
+      .mask1 {
+        -webkit-mask-image: url(img_sena.jpg);
+        mask-image: url(img_sena.jpg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;    
+      }
+      </style>
+  <!--ini merupakan buttons-->
+  <style>
+    .button {
+      background-color: #04AA6D; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {border-radius: 2px;}
+    .button2 {border-radius: 4px;}
+    .button3 {border-radius: 8px;}
+    .button4 {border-radius: 12px;}
+    .button5 {border-radius: 50%;}
+    </style>
+</head>
+
+<body>
+    <!--ini adalah HTML CSS sebaris-->
+   <h1 style="color:rgb(11, 206, 245);">Praktikum Pemrograman Web 1</h1><hr>
+    <!--ini merupakan output border CSS-->
+    <p class="dotted">ini merupakan border CSS dotted</p>
+    <p class="dashed">ini merupakan border CSS dashed</p>
+    <p class="solid">ini merupakan border CSS solid</p>
+    <p class="double">ini merupakan border CSS double</p>
+    <p class="groove">ini merupakan border CSS groove</p>
+    <p class="ridge">ini merupakan border CSS ridge</p>
+    <p class="inset">ini merupakan border CSS inset</p>
+    <p class="outset">ini merupakan border CSS outset</p>
+    <p class="none">ini merupakan border CSS none</p>
+    <p class="hidden">ini merupakan border CSS hidden</p>
+    <p class="mix">ini merupakan border CSS mimx</p><br><hr>
+
+    <!--ini merupakan output batas lebar CSS-->
+    <br><p class="one">ini merupakan batas lebar CSS</p>
+    <p class="two">ini merupakan batas lebar CSS</p>
+    <p class="three">ini merupakan batas lebar CSS</p>
+    <p class="four">ini merupakan batas lebar CSS</p>
+    <p class="five">ini merupakan batas lebar CSS</p>
+    <p class="six">ini merupakan batas lebar CSS</p><br><hr>
+
+    <!--ini merupakan output warna batas CSS-->
+    <br><p class="a">ini merupakan warna batas</p>
+    <p class="b">ini merupakan warna batas</p>
+    <p class="c">ini merupakan warna batas</p><br><hr>
+    
+    <!--ini merupakan output perbatasan CSS-->
+    <h2 style="color: bisque;">ini merupakan perbatasan CSS</h2>
+    <p class="o">ini merupakan perbatasan CSS</p><br><hr>
+
+    <!--ini merupakan output padding CSS-->
+    <h2 style="color: aquamarine;">CSS Padding</h2>
+        <div class="div9">ini merupakan padding.</div><br>
+    <!--ini merupakan output padding properti CSS-->
+    <div class="div9">ini merupakan padding properti CSS</div><hr>
+
+    <!--ini merupakan output formating CSS-->
+    <div class="t">
+    <h1 class="r">Praktikum Pemrograman Web I</h1>
+    <p class="i">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum unde deleniti libero sed enim vel, quas optio! Fugiat a, nemo cumque unde dolorum modi quod vel aliquam voluptate corrupti necessitatibus?
+    <a target="_blank" href="https://pnc.ac.id/">"Kampus Kami"</a></p>
+    </div>
+    <!--ini merupakan output dekorasi text-->
+    <h1 class="q">Html Saya</h1>
+    <h2 class="w">Html Saya</h2>
+    <h3 class="y">Html Saya</h3>
+    <p class="ex">Html Saya</p><hr>
+    <!--ini merupakan output transformasi text-->
+    <p class="up">ini adalah Praktikum Pemrograman Web I.</p>
+    <p class="low">ini adalah Praktikum Pemrograman Web I.</p>
+    <p class="cap">ini adalah Praktikum Pemrograman Web I</p>
+    <!--ini merupakan output bayangan text-->
+    <p class="l">output praktikum CSS saya</p>
+    <!--ini merupakan navigation bar-->
+    <ul>
+      <li><a href="#IG">IG</a></li>
+      <li><a href="#YOUTUBE" width="200%">YOUTUBE</a></li><br>
+    </ul>
+    <!--ini merupakan output units-->
+    <h2>Praktikum Pemrograman Web I</h2>
+    <p>ini adalah praktikum CSS saya</p>
+    <!--ini merupakan specificity-->
+    <p class="q">Praktikum Percobaan Saya</p>
+    <!--ini merupakan output important rule-->
+    <p class="li">Praktikum Pemrograman Web I</p>
+    <p class="mykit">Praktikum Pemrograman Web I</p>
+    <!--ini merupakan output math function-->
+    <div id="div11">Praktikum Pemrograman Web I</div><br><br>
+    <!--ini merupakan output rounded corners-->
+    <p id="sen1">Rounded corners!</p>
+    <p id="sen2">Rounded corners!</p>
+    <!--ini merupakan output border images-->
+    <p id="borderimg">Praktikum Pemrograman Web I</p>
+    <!--ini merupakan output gradient-->
+    <div id="grad1" style="text-align:center;">0deg</div><br>
+    <!--ini merupakan output radial gradient-->
+    <div id="grad11"></div><br>
+    <!--ini merupakan output conic gradient-->
+    <div id="grad21"></div>
+    <!--ini merupakan output shadow text-->
+    <p class="ep">Praktikum Pemrograman Web I</p>
+    <!--ini merupakan output text effect-->
+    <p>ini merupkan percobaan<span class="test2">praktikum CSS</span> saya</p>
+    <!--ini merupakan output 2D Transforms-->
+    <div class="div5">
+      ini merupakan transform yang normal
+      </div>
+      
+      <div id="myDiv">
+      ini merupakan transform 2D
+      </div><br>
+    <!--ini merupakan output animations-->
+    <div class="divgtu"></div><br>
+    <!--ini merupakan output tooltip-->
+    <div class="tooltip">Praktikum Pemrograman Web I
+      <span class="tooltiptext">Ini adalah praktikum Pemrograman CSS saya</span>
+    </div><br><br>
+    <!--ini merupakan output styling img-->
+    <img src="img_singa.jpg" alt="Singapura" style="width:50%">
+    <!--ini merupakan output masking-->
+    <div class="mask1">
+      <img src="img_sena.jpg" alt="Singapura" width="600" height="400">
+      </div>
+    <!--ini merupakan output buttons-->
+    <button class="button button1">2px</button>
+  <button class="button button2">4px</button>
+  <button class="button button3">8px</button>
+  <button class="button button4">12px</button>
+  <button class="button button5">50%</button>
+</body>
+</html>
